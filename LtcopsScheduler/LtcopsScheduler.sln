@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LtcopsScheduler", "LtcopsScheduler\LtcopsScheduler.csproj", "{7E5688B1-3276-4C0E-987A-D6D1D779CA74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LtcopsScheduler.Tests", "LtcopsScheduler.Tests\LtcopsScheduler.Tests.csproj", "{51298911-51C5-4041-888C-E4C5031D8D94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E5688B1-3276-4C0E-987A-D6D1D779CA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5688B1-3276-4C0E-987A-D6D1D779CA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5688B1-3276-4C0E-987A-D6D1D779CA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5688B1-3276-4C0E-987A-D6D1D779CA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51298911-51C5-4041-888C-E4C5031D8D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51298911-51C5-4041-888C-E4C5031D8D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51298911-51C5-4041-888C-E4C5031D8D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51298911-51C5-4041-888C-E4C5031D8D94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
