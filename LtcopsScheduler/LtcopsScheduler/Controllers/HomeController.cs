@@ -17,6 +17,7 @@ namespace LtcopsScheduler.Controllers
 
         public ActionResult About()
         {
+            ViewBag.Location = "You are in Tampa"; 
             return View();
         }
     }
