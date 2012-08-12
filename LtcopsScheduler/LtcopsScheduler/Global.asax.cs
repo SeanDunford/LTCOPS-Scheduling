@@ -19,7 +19,12 @@ namespace LtcopsScheduler
 
         public static void RegisterRoutes(RouteCollection routes)
         {
+
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            routes.MapRoute("Cuisine", "cuisine/{name}", new {controller = "Cuisine", action = "Search", name= UrlParameter.Optional}); 
+
+
 
             routes.MapRoute(
                 "Default", // Route name
