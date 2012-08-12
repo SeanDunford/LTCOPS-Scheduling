@@ -22,6 +22,7 @@ namespace LtcopsScheduler.Tests.Controllers
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
+            Assert.IsNotNull(result.ViewBag.Message); 
             Assert.AreEqual("Welcome to ASP.NET MVC!", result.ViewBag.Message);
         }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using LtcopsScheduler.Models;
 
 namespace LtcopsScheduler.Controllers
 {
@@ -11,13 +12,18 @@ namespace LtcopsScheduler.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Welcome to ASP.NET MVC!";
-            ViewData["CurrentTime"] = DateTime.Now.ToString();
-            return View();
+
+            var model = new RestaurantReview() {
+            Name = "Pollo Tropical", 
+            Rating = 9 
+            
+            }; 
+            return View(model);
         }
 
         public ActionResult About()
         {
-            ViewBag.Location = "You are in Tampa"; 
+            ViewBag.Location = "Tampa, Fl" ; 
             return View();
         }
     }
